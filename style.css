@@ -49,35 +49,36 @@ img{
     justify-content: center;  
 }
 /*----------HEAD MENU---------------*/
-.head-button{
+.head-nav{
     display: flex;
     justify-content: space-evenly;
 }
 
-.button{
+.button {
     max-width: 150px;
     height: 40px;
     width: 100%;
     border-radius: 50%;
     box-shadow: 3px 1px 5px black;
     background-color: rgb(250, 180, 50);
-}
-
-.button a{
     font-size: large;
     color: black;
     text-decoration: none;
     font-family: josefin;
+    text-align: center;
+    padding-top: 10px;
 }
+    
+
+
+
 .button:hover{
     transition-duration: 0,3s;
     background-color: rgb(180, 128, 31);
-}
-.button a:hover{
     font-size: x-large;
 }
 
-
+/*----------PRESENTATION---------------*/
 .team-member1{
     display: flex;
     flex-direction: column;
@@ -104,24 +105,24 @@ img{
 
 .first-word1{
     width: 15vw;
-   font-size: 3vw;
+   font-size: 4vw;
    font-family: josefin;
    margin-left: 44%;
 }
 
 .first-word2{
     width: 15vw;
-   font-size: 3vw;
+   font-size: 4vw;
    font-family: josefin;
    margin-left: 44%;
 }
 
-
+/*----------IMAGE DIVIDER---------------*/
 .img-break{
     height: 70vw;
     width: 100%;
 }
-
+/*----------OM OSS---------------*/
 h2 {
     font-family: josefin;
     font-size: 5vw;
@@ -149,7 +150,7 @@ h2 {
 .pic2{
     display: none;
 }
-
+/*----------NEW MEDIA SCREEN DISPLAY---------------*/
 @media only screen and (min-width: 650px){
 
     .team-member1{
