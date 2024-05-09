@@ -1,0 +1,113 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+   background-image: url(bilder/pexels-eva-bronzini-7598536.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+    display: grid;
+    gap: 5px 0px;
+    align-items: center; 
+}
+
+*{
+    box-sizing: border-box;
+}
+/*----------- inported font(josefin) ------------*/
+@font-face {
+    font-family: josefin;
+    src: url(fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+  }
+/*----------- Header 1 ------------*/
+h1 {
+    font-family: josefin;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 180, 50);
+    margin-bottom: 0px;
+    text-shadow: 3px 1px 5px black;
+    
+}
+/*----------- Logo img ------------*/
+img{
+    box-shadow: 3px 1px 5px black;
+}
+
+.bild{
+    border-radius: 50%;
+    height: 50vw
+}
+
+.divBild{
+    display: flex;
+    justify-content: center;  
+}
+/*----------HEAD MENU---------------*/
+.head-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    max-width: 150px;
+    height: 40px;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 3px 1px 5px black;
+    background-color: rgb(250, 180, 50);
+}
+
+.button a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-family: josefin;
+}
+.button:hover{
+    transition-duration: 0,3s;
+    background-color: rgb(180, 128, 31);
+}
+.button a:hover{
+    font-size: x-large;
+}
+
+.welcome h2 {
+    font-family: josefin;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 180, 50);
+    margin-bottom: 0px;
+    text-shadow: 3px 1px 5px black;
+    
+}
+
+.p1{
+        font-family: josefin;
+        font-size: 5vw;
+        text-align: center;
+        color: rgb(3, 3, 3);
+        margin-bottom: 0px;
+        
+    }
+
+    .p2{
+        font-family: josefin;
+        font-size: 3vw;
+        text-align: center;
+        color: rgb(3, 3, 3);
+        margin-bottom: 0px;
+        
+    }
+
+    .img1{
+        height: 70vw;
+        width: 100%;
+    }
+
