@@ -67,6 +67,7 @@ img{
     font-family: josefin;
     text-align: center;
     padding-top: 10px;
+    margin: min(10px, 10px, 10px, 10px);
 }
     
 
