@@ -51,6 +51,7 @@ img{
 /*----------HEAD MENU---------------*/
 .main-nav{
     display: flex;
+    align-items: center;
     flex-direction: row;
    background-color: rgb(250, 180, 50);
    justify-content: space-evenly;
@@ -66,10 +67,10 @@ img{
   
 }
 
-.main-nav,a{
+.main-nav a{
+    font-size: 3vw;
     font-family: josefin;
     text-decoration: none;
-   align-items: center;
    color: black;
 }
 
@@ -160,6 +161,10 @@ h2 {
 }
 /*----------NEW MEDIA SCREEN DISPLAY---------------*/
 @media only screen and (min-width: 650px){
+
+    .main-nav a{
+        font-weight: 300;
+    }
 
     .team-member1{
         flex-direction: row;
