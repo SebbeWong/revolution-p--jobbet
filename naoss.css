@@ -1,3 +1,9 @@
+
+
+
+
+
+
 body{
 
     margin: 0;
@@ -100,6 +106,7 @@ img{
     list-style: none;
     padding: 8px;
     color: black;
+   
 }
 .cont-info a:hover{
     color: rgb(250, 180, 50);
@@ -148,7 +155,7 @@ h2{
     font-family: josefin;
     width: 70vw;
     height: 50px;
-    border: none;
+    border: 2px solid  rgb(250, 180, 50);;
     outline: none;
     font-weight: 500;
     color: black;
@@ -202,9 +209,16 @@ textarea {
     font-family: josefin;
     text-align: center;
     margin: 0%;
-
 }
 
+.social-text{
+    background-color: rgb(250, 180, 50);;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-bottom: 25px;
+}
 
 /*----------BIG Screen---------------*/
 
