@@ -15,3 +15,9 @@ prevScrollpos = currentScrollPos;
 
 const contactContainer = document.getElementsByClassName('contact-container');
 const btnSubmit = document.getElementsByClassName('btn-submit');
+
+
+
+
+
+
