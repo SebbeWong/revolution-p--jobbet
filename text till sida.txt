@@ -1,0 +1,19 @@
+<div class="weDo">
+    <p>Workshopen
+        heter ”Revolution på jobbet” och syftet är att väcka/öka engagemanget hos varje individ
+        i verksamheten. Och därmed också minska tex. frånvaro/sjukfrånvaro, negativ arbetsmiljö och
+        låg moral och omsättning av medarbetare (som tillför ökade kostnader för tex. rekrytering och
+        introduktion.) För att istället öka arbetsglädjen och kvaliteten i verksamheten. Innehållet är baserat
+        på forskning och lång erfarenhet av arbetsledning men också på nyfikenheten inför vad som får oss
+        människor att fungera och må bra. 
+        </p>
+        <p>Eftersom
+            vi tror på att lära genom att göra, är workshopen uppdelad i tre olika delar: teori, praktik och
+            mönsterskapande. Tank en är att väcka det engagemang som ofta uppstår när vi kombinerar lärande
+            med görande och dessutom bidrar till någon annans utveckling. En workshop som syftar till att
+            tilltala hela individen hjärta, kropp, knopp och känslan av att tillhöra ett större sammanhang.</p>
+</div>
+
+
+
+------------------------------------------------------------------------------
