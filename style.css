@@ -22,6 +22,16 @@ h1 {
     
 }
 
+h3{
+    font-family: marianne;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 180, 50);
+    margin-bottom: 0px;
+    text-shadow: 3px 1px 5px black;
+    margin-top: 0;
+}
 /*----------HEAD MENU---------------*/
 .main-nav{
     display: flex;
@@ -42,10 +52,12 @@ h1 {
 }
 
 .main-nav a{
-    font-size: 3vw;
-    font-family: josefin;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: marianne;
     text-decoration: none;
    color: black;
+   padding-top: 20px;
 }
 
 
@@ -72,8 +84,8 @@ h1 {
 
 /*----------OM OSS---------------*/
 h2 {
-    font-family: josefin;
-    font-size: 5vw;
+    font-family: marianne;
+    font-size: 8vw;
     text-align: center;
     color: rgb(250, 180, 50);
     margin-bottom: 0px;
@@ -81,7 +93,9 @@ h2 {
 }
 
 .om-oss{
-    font-family: josefin;
+    font-family: marianne;
+    font-weight: bold;
+    font-size: 3vw;
     line-height: 27px;
     text-align: center;
     padding: 10px 20px;
@@ -94,19 +108,45 @@ h2 {
 }
 
 .mvh{
-    font-family: josefin;
-    font-size: 5vw;
+    font-family: marianne;
+    font-size: 8vw;
+    font-weight: bold;
     text-align: center;
     color: rgb(250, 180, 50);
     margin-bottom: 0px;
     text-shadow: 3px 1px 5px black;
+    margin-top: 0;
 }
+
+.mvh2{
+    font-family: marianne;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(250, 180, 50);
+    margin-bottom: 0px;
+    text-shadow: 3px 1px 5px black;
+    margin-top: 0;
+}
+
 .pic2{
     display: none;
 }
-/*----------img slideshow---------------*/
 
 
+.back-to-top{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: marianne;
+    font-size: 4vw;
+    font-weight: bold;
+    color: black;
+}
+
+.back-to-top:hover{
+    color: rgb(250, 180, 50);
+}
 
 
 
@@ -118,38 +158,7 @@ h2 {
         font-weight: 300;
     }
 
-    .team-member1{
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 80px;
-    }
 
-    .team-member2{
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 80px;
-    }
-
-    .photo{
-        height: 40vw;
-        border-radius: 50%;
-        margin-left: 10%;
-    }
-
-    .first-word1{
-        width: 30vw;
-       font-size: 3vw;
-       font-family: josefin;
-       margin-left: 10%;
-    }
-    
-    .first-word2{
-        width: 30vw;
-       font-size: 3vw;
-       font-family: josefin;
-       margin-left: 10%;
-    }
-    
     .pic2{
        display: flex;
        justify-content: center;
