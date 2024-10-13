@@ -73,6 +73,51 @@ h3{
     height: 70vw;
     justify-content: center;
 }
+h6{
+    font-family: marianne;
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(250, 180, 50);
+    margin-bottom: 0px;
+    text-shadow: 3px 1px 5px black;
+}
+
+.lada{
+    font-family: marianne;
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 27px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(250, 180, 50);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    border: 2px solid black;
+
+}
+
+.red{
+    color: red;
+}
+.red-1{
+    color: red;
+    font-size: 4vw;
+}
+
+.back-to-top{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: marianne;
+    font-size: 4vw;
+    font-weight: bold;
+    color: black;
+}
+
+.back-to-top:hover{
+    color: rgb(250, 180, 50);
+}
    
 
    
