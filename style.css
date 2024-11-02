@@ -96,7 +96,7 @@ h2 {
     font-family: marianne;
     font-weight: bold;
     font-size: 3vw;
-    line-height: 27px;
+    
     text-align: center;
     padding: 10px 20px;
     background-color: rgb(250, 180, 50);
@@ -104,6 +104,7 @@ h2 {
     margin-left: 5%;
     border-radius: 25px;
     border: 2px solid black;
+    line-height: 4vw;
 
 }
 
